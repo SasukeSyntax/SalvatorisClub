@@ -44,14 +44,14 @@ li a {
 }
 
 .maincont {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .flexbox {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 80vh;
     min-width: auto;
     display: flex;
@@ -61,7 +61,7 @@ li a {
 }
 
 .section {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: #7e5fa1;
     display: flex;
     flex-wrap: wrap;
@@ -102,4 +102,14 @@ li a {
     font-family: "Righteous", sans-serif;
     font-size: 40px;
     color: rgb(245, 245, 245);
+}
+
+.heading-btn-parent {
+    position: relative;
+}
+
+button {
+    position: absolute;
+    left: 18px;
+    bottom: 10px;
 }
